@@ -4,7 +4,7 @@
 
 My personal website for 102
 
-This for class 3 demo
+* This for class 3 demo
 * I really like markdown
 * Is it lunchtime yet? I bet everyone is ready for lunch.
 
