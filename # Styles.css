@@ -1,0 +1,11 @@
+/* structure of a CSS RULE: */
+/* selector {property: va;ue;} */
+
+/* PROOF OF LIFE - make it obvious to see that it's working */
+/* body {background-color: tomato} */
+
+body {
+    background-color: aqua(128, 121 228, 0.36);
+    margin: 100px;
+    padding: 10px;
+}
