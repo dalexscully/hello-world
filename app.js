@@ -1,24 +1,29 @@
 'use strict';
+// proof of life --> to make sure it's connected to my HTML
+// console.log('Hello World!');
 
-console.log('Domaine');
+// What/why functions?
+// Command we can use to execute a set of steps
 
-console.log('Hello World!');
+// Structure of a function
+// function myfuntion(parameters){code to execute}
 
-
-let x = 10;
-console.log(x);
-
-let usersName = prompt('What is your name?');
-let message;
-
-if (usersName == 'Domaine'){
-    message = 'I am a Loan Officer';
-}    else {
-    message = 'Welcome to my site!';
+function greetUser(){
+    let usersName = prompt('what is yout name');
+    document.write('Hi ' + usersName);
+    return usersName;
 }
-if (usersName == 'Domaine'){
-    message = ' I am a Realtor';
-}    else{
-    message = 'Need a Mortgage Loan!';
+
+let usersName = greetUser();
+// console.log(usersName);
+
+//  let message;
+
+// let usersName = prompt('What is your name?');
+// document.write('Hi ' + usersName);
+// document.write(message);
+function addTwoNumbers(num1, num2){
+    return num1 + num2
 }
-document.write(message);
+
+
