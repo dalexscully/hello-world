@@ -1,10 +1,24 @@
 'use strict';
 
-let myName;
-console.log(myName);
-const myName = 'Domaine'
-console.Log('hello world');
+console.log('Domaine');
 
-//declare a variable called x assign it valve of the value 10
+console.log('Hello World!');
+
+
 let x = 10;
 console.log(x);
+
+let usersName = prompt('What is your name?');
+let message;
+
+if (usersName == 'Domaine'){
+    message = 'I am a Loan Officer';
+}    else {
+    message = 'Welcome to my site!';
+}
+if (usersName == 'Domaine'){
+    message = ' I am a Realtor';
+}    else{
+    message = 'Need a Mortgage Loan!';
+}
+document.write(message);
