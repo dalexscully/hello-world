@@ -36,7 +36,7 @@ function showhome2(){
     let usersNum = prompt('How many homes would you rate my page? 1-5')
 
 for (let i = 0; ((i < usersNum) && i < 5); i++){
-    document.write('<img src="home2.jpeg" alt="colorful homes"/>');
+    document.write('<img src="home2.jpeg" alt="home2" style="width:100px;"/>');
     }
 }
 
