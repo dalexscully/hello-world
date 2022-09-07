@@ -15,7 +15,7 @@ p{font-family: 'Courier';
 background-color: rgba(250, 250, 242, 0.197);
 }
 img {
-    width: 400px;
+    width: 300px;
 }
 header {
     background-color: rgba(169, 162, 162, 0);
@@ -28,7 +28,7 @@ nav li {
 }
 
 #hero {
-    width: 500px;
+    width: 400px;
 }
 
 .lower {
@@ -39,3 +39,8 @@ nav li {
 footer {
     text-align: center;
 }
+.home2 {
+    width: 50px;
+}
+
+    
