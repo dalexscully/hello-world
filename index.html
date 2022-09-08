@@ -4,8 +4,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <script>
- let userName = prompt('What is your name?');
- document.write('Welcome to my homepage,' + userName);
+ let usersloan = prompt('Are you looking for a Home?');
+
+  if (usersloan == 'Yes'){
+  message = 'Great! let us get started!'
+} else if (usersloan == 'No'){
+  message = "How can I help?";
+} else if (usersloan == 'Maybe'){
+  message = "I can get you pre-approved!" 
+} else {
+  message = 'Let us get you a loan!'; 
+} 
+   
+document.write(message);
 </script>
 <body>
     <!-- <script src="app.js"></script> -->

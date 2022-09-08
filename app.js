@@ -30,17 +30,19 @@
 //     message = 'Welcome to my website';
 // }
 
-// if (usersName == 'Domaine'){
-//   message = 'Hi there Scully!'
-// } else if (usersName == 'Nadia'){
-//   message = "Hi Nadia";
-// } else if (usersName == 'Lelia'){
-//   message = "Hi Lelia!" 
-// } else {
-//   message = 'Welcome to my website!'; 
-// } 
+let usersHome = prompt('Are you looking for a Home?');
+
+if (usersHome == 'Yes'){
+  message = 'Great! let us get started!'
+} else if (usersHome == 'No'){
+  message = "How can I help";
+} else if (usersHome == 'Maybe'){
+  message = "I can get you pre-approved!" 
+} else {
+  message = 'Let us get you a loan!'; 
+} 
    
-// document.write(message);
+document.write(message);
 
 // console.log(usersName);
 // message = 'Hi, ' + usersName + '!';
