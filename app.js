@@ -32,11 +32,11 @@
 
 let usersHome = prompt('Are you looking for a Home?');
 
-if (usersHome == 'Yes'){
+if (usersHome == 'yes'){
   message = 'Great! let us get started!'
-} else if (usersHome == 'No'){
+} else if (usersHome == 'no'){
   message = "How can I help";
-} else if (usersHome == 'Maybe'){
+} else if (usersHome == 'maybe'){
   message = "I can get you pre-approved!" 
 } else {
   message = 'Let us get you a loan!'; 
