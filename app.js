@@ -18,8 +18,8 @@
 // let x = 10;
 // console.log(x);
 
-let usersName = prompt('What is your name?');
-let message;
+// let usersName = prompt('What is your name?');
+// let message;
 
 // strucure of if/else
 // if(condition to evaluate){code to execute}else{code to execute}
@@ -30,17 +30,17 @@ let message;
 //     message = 'Welcome to my website';
 // }
 
-if (usersName == 'Domaine'){
-  message = 'Hi there Scully!'
-} else if (usersName == 'Nadia'){
-  message = "Hi Nadia";
-}  else if (usersName == 'Lelia'){
-  message = "Hi Lelia!" 
-} else {
-  message = 'Welcome to my website!'; 
-} 
+// if (usersName == 'Domaine'){
+//   message = 'Hi there Scully!'
+// } else if (usersName == 'Nadia'){
+//   message = "Hi Nadia";
+// } else if (usersName == 'Lelia'){
+//   message = "Hi Lelia!" 
+// } else {
+//   message = 'Welcome to my website!'; 
+// } 
    
-document.write(message);
+// document.write(message);
 
 // console.log(usersName);
 // message = 'Hi, ' + usersName + '!';
