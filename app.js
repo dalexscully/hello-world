@@ -27,22 +27,24 @@
 // if (usersName == 'Domaine'){
 //     message = ' Hi there Scully!';
 // }   else {
-//     message = 'Welcome to my website';
+// message = 'Welcome to my website';
 // }
-
+let usersName = prompt('What is your name');
+   messageOne = 'Hi there ', usersName;
 let usersHome = prompt('Are you looking for a Home?');
 
 if (usersHome == 'yes'){
-  message = 'Great! let us get started!'
+  messageTwo = 'Great! let us get started!', usersName;
 } else if (usersHome == 'no'){
-  message = "How can I help";
+  messageTwo = "How can I help";
 } else if (usersHome == 'maybe'){
-  message = "I can get you pre-approved!" 
+  messageTwo = "I can get you pre-approved!" 
 } else {
-  message = 'Let us get you a loan!'; 
+  messageTwo = 'Let us get you a loan!'; 
 } 
    
-document.write(message);
+document.write('<h1>'+messageOne+'</h1>');
+document.write(messageTwo);
 
 // console.log(usersName);
 // message = 'Hi, ' + usersName + '!';

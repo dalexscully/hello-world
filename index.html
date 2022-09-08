@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <head>
+<!-- <script>
+  let usersName = prompt('What is your name');
+   message = 'Hi there ', usersName;  
+</script> -->
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <script>
- let usersloan = prompt('Are you looking for a Home?');
+let usersName = prompt('What is your name?');  
+if (usersName == null);{
+    usersName = 'User'
+};
+   messageOne = 'Hi ' + usersName + '!' ;   
+
+   let usersloan = prompt('Are you looking for a Home?');
 
   if (usersloan == 'yes'){
-  message = 'Great! let us get started!'
+  messageTwo = ' Great let us get started!';
 } else if (usersloan == 'no'){
-  message = "How can I help?";
+  messageTwo = ' How can I help ' +'?';
 } else if (usersloan == 'maybe'){
-  message = "I can get you pre-approved!" 
+  messageTwo = ' Can we set up a free consultation ' + '?'; 
 } else {
-  message = 'Let us get you a loan!'; 
+  messageTwo = ' Let us get you a loan ' + '!'; 
 } 
    
-document.write(message);
+document.write(messageOne);
+document.write(messageTwo);
+
+let usersBudget = prompt('What is your budget');
+    messageThree = ' Okay, let us get you pre-approved.';
+
+document.write(messageThree);    
 </script>
 <body>
-    <!-- <script src="app.js"></script> -->
     <header>
         <h1>Buying a Home</h1>
         <img id="hero" src="Beautiful home.jpg" alt="Your New Home"/> 
         <!-- Photo by <a href="https://unsplash.com/@webaliser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ярослав Алексеенко</a> on <a href="https://unsplash.com/s/photos/home?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> --> 
   
-    </header>  
+    </header> 
     <nav>
     <script>
         document.write('Welcome to my page!');
@@ -63,5 +78,6 @@ document.write(message);
     <footer>
         <p>&copy; Domaine & Nicholas</p>
     </footer>
+    <!-- <script src="app.js"></script>  -->
  </body>
  </html>   
