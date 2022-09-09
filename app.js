@@ -1,31 +1,24 @@
 'use strict';
 
-// proof of life --> to make sure it's connected to my HTML
+let buyer = prompt('What is your name?');
+document.write('Hi ' + buyer + ' Let us get started on your loan');
 
+let usersGuess;
+let guessesLeft = 3;
 
-function buyer(){
-    let buyer = prompt('What is your name?');
-    document.write('Hi ' + buyer + ' Let us get started on your loan');
-    
-    let borrower = prompt('Mortgage loan limit? ($100000-$200000)');
-    let message = '';
-    
-    let client = prompt('Try different loan limit');
-
-
-    if(buyer => '$150000'){
-        message = 'loan is pending!';
-    } else if (buyer => '$120000'){
-        message = 'loan is being consider';
-    } else if (buyer < '$100000'){
-        message = 'You loan is under review!';
-    } else {
-        message = 'Let us help you buy your dream home!'
-    }
-    return message;
+while (usersGuess !== 'good' && guessesLeft >0){
+    guessesLeft--;
+    usersGuess = prompt('What is the opposite of Bad? (Hint: Starts with g)')
 }
-buyer();
+
+function showhome2(){
+    let usersNum = prompt('How many homes would you rate my page? 1-5');
     
+for (let i = 0; ((i < usersNum) && i < 5); i++){
+     document.write('<img src="home2.jpeg" alt="home2" style="width:60px;"/>');
+    }
+}
+// showhome2();
     
 
 
