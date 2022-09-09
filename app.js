@@ -1,78 +1,59 @@
 'use strict';
 
 // proof of life --> to make sure it's connected to my HTML
-
-// declare a variable
-// let myName;
-// console.log(myName)
-// reassign the variable
-// myName = 'Domaine';
-// console.log(myName);
-// reassign it again
-// myName = 'Nadia';
-// console.log(myName);
-
 // console.log('Hello World!');
-
-// declare a variable called x. assign it value of the value of 10
-// let x = 10;
-// console.log(x);
-
-// let usersName = prompt('What is your name?');
-// let message;
-
-// strucure of if/else
-// if(condition to evaluate){code to execute}else{code to execute}
-
-// if (usersName == 'Domaine'){
-//     message = ' Hi there Scully!';
-// }   else {
-// message = 'Welcome to my website';
-// }
-let usersName = prompt('What is your name');
-   messageOne = 'Hi there ', usersName;
-let usersHome = prompt('Are you looking for a Home?');
-
-if (usersHome == 'yes'){
-  messageTwo = 'Great! let us get started!', usersName;
-} else if (usersHome == 'no'){
-  messageTwo = "How can I help";
-} else if (usersHome == 'maybe'){
-  messageTwo = "I can get you pre-approved!" 
-} else {
-  messageTwo = 'Let us get you a loan!'; 
-} 
-   
-document.write('<h1>'+messageOne+'</h1>');
-document.write(messageTwo);
-
-// console.log(usersName);
-// message = 'Hi, ' + usersName + '!';
-// console.log(message);
 
 // What/why functions?
 // Command we can use to execute a set of steps
 
 // Structure of a function
-// function myfuntion(parameters){code to execute}
+// keyword function name
+// functions myfunction(parameters){code to execute}
+//                   parameters code to execute
+
+// function greetUser(){
+//   let usersName = prompt('What is your name?');
+//   document.write('Hi ' + usersName);
+// }
+// greetUser();
 
 // function greetUser(){
 //     let usersName = prompt('what is your name');
 //     document.write('Hi ' + usersName);
 //     return usersName;
+//   }
+  
+// let usersName = greetUser();
+// //   console.log(usersName);
+
+// function customMessage(name){
+// let message;
+
+// if (usersName == 'Nadia'){
+//   message = ' Hi Teach!'  
+// } else if (usersName == 'Bill') {
+//   message = ' Hi Bill!';
+// } else if (usersName == 'Lelia'){
+//   message = ' Hi Lelia!';
+// } else {
+//   message = ' Welcome to my site!'; 
+// } 
+// document.write(message);
 // }
 
-// let usersName = greetUser();
-// console.log(usersName);
+// customMessage('usersName');
 
 //  let message;
 
-// let usersName = prompt('What is your name?');
-// document.write('Hi ' + usersName);
-// document.write(message);
+                        // parameters
 // function addTwoNumbers(num1, num2){
-//     return num1 + num2
-// }
+//  return num1 + num2
+}
+// console.log(addTwoNumbers(462, 9));
+                        //  arguments   
+// let myNewNumber = addTwoNumbers(10, 10);
+
+
 // let usersGuess;
 // let guessesLeft = 3;
 
